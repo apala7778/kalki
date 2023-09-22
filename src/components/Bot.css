@@ -1,0 +1,70 @@
+.appp {
+    margin:0px;
+    padding:10px;
+    background: rgb(5, 9, 43);
+    width:100%;
+    height:100vh;
+    display: flex;
+    
+    
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.two {
+    width: 65%;
+   margin: 20px;
+   border: 2px solid grey ;
+   border-radius: 19px;
+}
+
+
+.input {
+ margin-left: 10px;
+ margin-right: 10px;
+   margin-top: 600px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+svg {
+ width: 20px;
+ height: 20px;
+ padding-right: 6px;
+padding-top: 2px;
+}
+
+.grey {
+ margin: 5px;
+ border-radius: 10px;
+ padding: 20px;
+      font-size: 20px;
+     color: white;
+     
+     background-color: rgba(166, 173, 175, 0.458);
+}
+
+.button {
+   display: flex;
+   flex-direction: column;
+   margin-left: 90px;
+  
+}
+button {
+ 
+   width: 200px;
+   margin-top: 30px;
+   height: 50px;
+   font-size: 18px;
+   border-radius: 10px;
+   background:linear-gradient(90deg,rgb(210, 212, 214), rgb(156, 172, 194));
+   font-family: 'Inter';
+}
+
